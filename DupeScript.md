@@ -67,7 +67,7 @@ end
         local brd = getBoard()
         local x = brd:WaitForChild("Controls").Close.Pad
         wait()
-        autodrop(15)
+        autodrop(30)
         wait(0.2)
         lplr.Character:MoveTo(x.Position)
         wait(0.05)
